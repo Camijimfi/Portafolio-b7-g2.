@@ -51,7 +51,7 @@
             class="container col-xxl-8 px-4 py-5 d-flex justify-content-md-start align-items-center">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="Cami.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                    <img src="assets/Cami.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
                         height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6 shadow p-5 rounded-4">
@@ -109,13 +109,13 @@
             </div>
         </section>
 
-        <div id="proyectos" class="container px-4 py-5 ">
+        <section id="proyectos" class="container px-4 py-5 ">
             <h2 class="pb-2 border-bottom">Proyectos</h2>
 
             <div class="row row-cols-1 row-cols-md-3 g-4 ">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="Google.png" class="card-img-top" alt="Google">
+                        <img src="assets/Google.png" class="card-img-top" alt="Google">
                         <div class="card-body">
                             <h5 class="card-title">Clon de google</h5>
                             <p class="card-text">Recientemente, he creado un clon de la página de inicio de Google
@@ -131,7 +131,7 @@
 
                 <div class="col">
                     <div class="card h-100">
-                        <img src="Portafolio.png" class="card-img-top" alt="Portafolio">
+                        <img src="assets/Portafolio.png" class="card-img-top" alt="Portafolio">
                         <div class="card-body">
                             <h5 class="card-title">Portafolio</h5>
                             <p class="card-text">Recientemente, he diseñado y desarrollado mi propio portafolio web
@@ -148,7 +148,7 @@
 
                 <div class="col">
                     <div class="card h-100">
-                        <img src="Instagram.png" class="card-img-top" alt="Instagram">
+                        <img src="assets/Instagram.png" class="card-img-top" alt="Instagram">
                         <div class="card-body">
                             <h5 class="card-title">Bookstagram</h5>
                             <p class="card-text"> Aquí comparto mi amor por los libros, desde mis lecturas actuales
@@ -156,18 +156,19 @@
                                 autores que me hagan soñar y reflexionar.</p>
                         </div>
                         <div class="card-footer">
-                            <button><a href="https://www.instagram.com/mushubluee/" target="_blank">Ver</a></button>
+                            <button><a href="https://www.instagram.com/mushubluee/" target="_blank" bo>Ver</a></button>
 
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+            <h2 class="container text-center">Testimonios</h2>
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -176,48 +177,40 @@
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
                         class="active" aria-current="true"></button>
                 </div>
+
+                <!-- contenido de carrusel -->
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center px-5 py-5">
+                            <img src="assets/Andy.png" height="200px" alt="Andy">
+                            <h3>Andrea Jiménez</h3>
+                            <p>Camila es una desarrolladora web junior que ha avanzado mucho en poco tiempo. Su pasión
+                                por HTML, CSS y JavaScript es inspiradora, y sus proyectos reflejan su dedicación y
+                                creatividad. Estoy muy orgullosa de ella y sé que seguirá creciendo en esta carrera.</p>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article class="container text-center px-5 py-5">
+                            <img src="assets/mami.png" height="200px" alt="Mami">
+                            <h3>Ma. Elena Filomeno</h3>
+                            <p>Camila ha demostrado un gran talento y dedicación en su aprendizaje de desarrollo web. Su
+                                clon de Google, hecho con HTML y CSS, muestra su capacidad y entusiasmo por mejorar cada
+                                día. Estoy muy orgullosa de su progreso y sé que tiene un futuro brillante en este
+                                campo.</p>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article class="container text-center px-5 py-5">
+                            <img src="assets/Litzi.png" height="200px" alt="Litzi">
+                            <h3>Litzi Sánchez</h3>
+                            <p>Camila ha demostrado ser una alumna responsable y muy creativa durante el curso. Su
+                                interes por aprender la motiva a mejorar con cada proyecto que realiza.</p>
+                        </article>
                     </div>
                 </div>
+
+
+                <!-- Botones que son las flechitas para pasar de diapositiva (slide) -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
