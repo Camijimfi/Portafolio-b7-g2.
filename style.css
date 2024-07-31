@@ -1,7 +1,15 @@
 #presentacion {
-height: 100vh;
-display: flex;
-justify-content: start;
-align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
+a{
+    color: rgb(12 22 41);
+    text-decoration: none;
+}
+
+.text-shadow-1 {
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
