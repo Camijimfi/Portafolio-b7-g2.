@@ -17,9 +17,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Camila</a>
+                <a class="navbar-brand" href="#presentacion">Camila</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,16 +27,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Proyectos</a>
+                            <a class="nav-link active" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Testimonios</a>
+                            <a class="nav-link active" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -45,8 +45,7 @@
     </header>
 
 
-    <main>
-
+    <main  class="pb-5 mb-5">
         <section id="presentacion"
             class="container col-xxl-8 px-4 py-5 d-flex justify-content-md-start align-items-center">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -62,7 +61,7 @@
                         encanta aprender cosas nuevas y considero el diseño gráfico como un hobbie que disfruto mucho.
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Cotáctame</button>
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="">Cotáctame</a></button>
                         <button type="button" class="btn btn-outline-secondary btn-lg px-4">camijimfi@gmail.com</button>
                     </div>
                 </div>
@@ -112,7 +111,7 @@
         <section id="proyectos" class="container px-4 py-5 ">
             <h2 class="pb-2 border-bottom">Proyectos</h2>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
                 <div class="col">
                     <div class="card h-100">
                         <img src="assets/Google.png" class="card-img-top" alt="Google">
@@ -140,7 +139,7 @@
                                 profesionalmente.</p>
                         </div>
                         <div class="card-footer">
-                            <button><a href="https://portafolio-b7-g2-red.vercel.app/" target="_blank">Ver</a></button>
+                            <button><a href="https://portafolio-b7-g2-zeta.vercel.app/" target="_blank">Ver</a></button>
 
                         </div>
                     </div>
@@ -224,15 +223,43 @@
 
     </main>
 
-    <footer id="contacto" class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-        </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    <footer id="contacto" class="container-fluid bg-primary" data-bs-theme="dark">
+        <div class="py-3">
+            <div class="text-center mt-5">
+                <i class="bi bi-stars fs-1 text-body-secondary"></i>
+              </div>
+            <h5 class="text-center text-light">"...Crea con pasión, vive con propósito"</h5>
+
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/thiisnotcami?igsh=MnM5YW8zdmRidzZ4&utm_source=qr" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-instagram fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="www.linkedin.com/in/camila-jiménez-2509b1291" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-linkedin fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://github.com/Camijimfi" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-github fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.tiktok.com/@thisisnotcamiil?_t=8oUrL2de9kD&_r=1" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-tiktok fs-1"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2024 Camila, TECHNOLOCHICAS PRO</p>
+        </div>
     </footer>
 
 
