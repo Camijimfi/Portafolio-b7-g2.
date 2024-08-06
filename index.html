@@ -54,16 +54,18 @@
                         height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6 shadow p-5 rounded-4">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Camila Jiménez </h1>
+                    <h1 id="app" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Camila Jiménez </h1>
                     <p class="lead">Mi nombre es Camila Jiménez Filomeno, pero normalmente me llaman Cami. Tengo 19 años
                         y soy estudiante de primer semestre en negocios digitales en la Universidad Latinoamericana. Amo
                         leer libros de romance y tengo una gran pasión por los gatos, de los cuales tengo dos. Me
                         encanta aprender cosas nuevas y considero el diseño gráfico como un hobbie que disfruto mucho.
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="">Cotáctame</a></button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">camijimfi@gmail.com</button>
-                    </div>
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a id="contactame" target="_blank" href="https://wa.me/525534920742">Contáctame</a></button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4" 
+        onclick="window.location.href='mailto:camijimfi@gmail.com?subject=Contacto desde tu portafolio'">
+    camijimfi@gmail.com
+</button>
                 </div>
             </div>
         </section>
@@ -228,7 +230,7 @@
             <div class="text-center mt-5">
                 <i class="bi bi-stars fs-1 text-body-secondary"></i>
               </div>
-            <h5 class="text-center text-light">"...Crea con pasión, vive con propósito"</h5>
+            <h5 id="frase" class="text-center text-light">"...Crea con pasión, vive con propósito"</h5>
 
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item">
@@ -266,6 +268,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
