@@ -24,4 +24,4 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 
 ---
 
-Desarrollado con 💜 por [Camila] (https://linktr.ee/camijimfi) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/).
+Desarrollado con 💙 por [Camila] (https://linktr.ee/camijimfi) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/).
